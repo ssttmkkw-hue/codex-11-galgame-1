@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>潮汐来信 · 美术素材集</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="catalog.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <a class="wordmark" href="#">汐見 <span>ART ARCHIVE / 01</span></a>
+    <nav aria-label="页面导航"><a href="#studio">场景预览</a><a href="#gallery">素材原图</a><a href="../README.md">接入说明 ↗</a></nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">LETTERS OF THE TIDE · VISUAL NOVEL</p><h1>潮汐来信<span>把未说出口的话，<br>交给这个夏天。</span></h1><p class="lead">海玻璃的颜色，和月光落下的位置。<br>两位角色，一座海边小镇，一场尚未结束的约定。</p><a class="primary" href="#studio">翻开这个夏天 <span>↓</span></a></div>
+      <a class="cover" href="../assets/keyart/tide_letters_keyvisual.png" target="_blank" rel="noopener"><img src="../assets/keyart/tide_letters_keyvisual.png" alt="夏澄与澪的双人主视觉" fetchpriority="high"><span>KEY VISUAL · 点击查看原图 ↗</span></a>
+    </section>
+    <section id="studio" class="studio">
+      <div class="section-heading"><div><p class="eyebrow">01 / SCENE COMPOSITOR</p><h2>让故事，先有一个画面。</h2></div><p>切换表情与场景，查看素材的实际搭配。</p></div>
+      <div class="workspace">
+        <div class="stage-wrap">
+          <div class="stage" id="stage" role="img" aria-label="海堤日景中的夏澄与澪">
+            <img id="scene" class="scene" src="../assets/backgrounds/seawall_day.png" alt="海堤日景">
+            <img id="natsumi" class="sprite natsumi" src="../assets/characters/natsumi/neutral.png" alt="夏澄，日常表情">
+            <img id="mio" class="sprite mio" src="../assets/characters/mio/neutral.png" alt="澪，日常表情">
+            <div class="scene-tag" id="scene-tag">汐见 · 海堤 / 晴日</div>
+            <div class="dialogue" id="dialogue"><span>夏澄</span><p>欢迎回来。海风还是和记忆里一样，对吧？</p><small>素材构图示意 · 非正式剧情</small></div>
+          </div>
+          <p class="stage-note">16:9 居中取景 · 原始横图为 3:2 · 角色图片带 Alpha 透明通道</p>
+        </div>
+        <aside class="controls" aria-label="场景合成设置">
+          <label for="background">故事发生的地方</label><select id="background"></select>
+          <fieldset><legend><span class="dot coral"></span> 夏澄 <small>NATSUMI / 22</small></legend><div id="natsumi-expressions" class="expression-grid"></div><label class="check"><input id="show-natsumi" type="checkbox" checked> 显示夏澄</label></fieldset>
+          <fieldset><legend><span class="dot lavender"></span> 澪 <small>MIO / 24</small></legend><div id="mio-expressions" class="expression-grid"></div><label class="check"><input id="show-mio" type="checkbox" checked> 显示澪</label></fieldset>
+          <div class="view-options"><label class="check"><input id="fullbody" type="checkbox"> 查看全身</label><label class="check"><input id="checker" type="checkbox"> 透明棋盘底</label><label class="check"><input id="show-dialogue" type="checkbox" checked> 显示对话框</label></div>
+          <p class="hint">差分为独立整身 PNG，细部可能有轻微漂移。点击下方卡片可打开原始文件。</p>
+        </aside>
+      </div>
+    </section>
+    <section id="gallery" class="archive">
+      <div class="section-heading"><div><p class="eyebrow">02 / ORIGINAL ASSETS</p><h2>属于汐见的每一帧。</h2></div><p id="asset-count">25 张原始 PNG / 5 类素材</p></div>
+      <div class="filters" role="group" aria-label="素材分类"><button type="button" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="design" aria-pressed="false">角色设计</button><button type="button" data-filter="character" aria-pressed="false">表情立绘</button><button type="button" data-filter="background" aria-pressed="false">场景背景</button><button type="button" data-filter="cg" aria-pressed="false">剧情 CG</button><button type="button" data-filter="keyart" aria-pressed="false">主视觉</button></div>
+      <div id="asset-grid" class="asset-grid"></div>
+      <noscript>请启用 JavaScript 查看素材清单。原始文件位于仓库 assets 目录。</noscript>
+    </section>
+  </main>
+  <footer><span>潮汐来信 <i>Letters of the Tide</i></span><span>原创美术包 · 内置生图工具制作 · 2026</span></footer>
+  <div id="status" role="status" class="sr-only" aria-live="polite"></div>
+</body>
+</html>

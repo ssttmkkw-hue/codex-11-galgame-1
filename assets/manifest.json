@@ -1,0 +1,644 @@
+{
+  "schema_version": 1,
+  "title": "潮汐来信",
+  "english_title": "Letters of the Tide",
+  "generated_date": "2026-11-22",
+  "asset_count": 25,
+  "total_bytes": 58561916,
+  "counts": {
+    "design": 2,
+    "character": 12,
+    "background": 8,
+    "cg": 2,
+    "keyart": 1
+  },
+  "notes": [
+    "All PNGs are original unmodified tool outputs.",
+    "Sprites are independent full images; pixel-perfect face alignment is not guaranteed.",
+    "Landscape source is 3:2; the preview crops the center to 16:9."
+  ],
+  "assets": [
+    {
+      "id": "natsumi_reference",
+      "category": "design",
+      "label": "夏澄 · 角色设计",
+      "path": "assets/design/natsumi_reference.png",
+      "character": "natsumi",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2582629,
+      "sha256": "9c4ca1737dfe029952c17fb963920bc5b1d1a5bd627cd3a5c2923e1266e5e395",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_reference",
+      "category": "design",
+      "label": "澪 · 角色设计",
+      "path": "assets/design/mio_reference.png",
+      "character": "mio",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2767076,
+      "sha256": "b3d936a53bd8a5a740ba75c9b037d115c79d396bf478cb1a6d7f34b72787bed3",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_neutral",
+      "category": "character",
+      "label": "夏澄 · 日常",
+      "path": "assets/characters/natsumi/neutral.png",
+      "character": "natsumi",
+      "expression": "neutral",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        261,
+        23,
+        755,
+        1505
+      ],
+      "opaque_fraction": 0.24191,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1612952,
+      "sha256": "cd722a2355a26aee2e34c7aeb246e80d60d29db85c01e3a7a62f1c113c6948cc",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_smile",
+      "category": "character",
+      "label": "夏澄 · 喜悦",
+      "path": "assets/characters/natsumi/smile.png",
+      "character": "natsumi",
+      "expression": "smile",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        258,
+        22,
+        758,
+        1506
+      ],
+      "opaque_fraction": 0.24642,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1545437,
+      "sha256": "d29bd87edfe258a5ba7fb9078fcf391b19bd055e8c60a7d5e16f6a53cb84ea6c",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_shy",
+      "category": "character",
+      "label": "夏澄 · 害羞",
+      "path": "assets/characters/natsumi/shy.png",
+      "character": "natsumi",
+      "expression": "shy",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        258,
+        21,
+        759,
+        1505
+      ],
+      "opaque_fraction": 0.24627,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1693172,
+      "sha256": "0915d1e4fce75baabe662bc2c97a587e286be63e3f0faf7dfa5dda90ae2e2d7a",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_surprised",
+      "category": "character",
+      "label": "夏澄 · 惊讶",
+      "path": "assets/characters/natsumi/surprised.png",
+      "character": "natsumi",
+      "expression": "surprised",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        260,
+        22,
+        757,
+        1505
+      ],
+      "opaque_fraction": 0.24437,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1534335,
+      "sha256": "77d7c15494c9befb2901301db664862f52fa0f8055fdfd2fb0f79aeffae9323d",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_serious",
+      "category": "character",
+      "label": "夏澄 · 认真",
+      "path": "assets/characters/natsumi/serious.png",
+      "character": "natsumi",
+      "expression": "serious",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        259,
+        22,
+        757,
+        1506
+      ],
+      "opaque_fraction": 0.24554,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1544404,
+      "sha256": "3eadea79a41a46087896aa6ba1ba1691281cc744a5dadfad1e893a6361a401c9",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_sad",
+      "category": "character",
+      "label": "夏澄 · 落泪",
+      "path": "assets/characters/natsumi/sad.png",
+      "character": "natsumi",
+      "expression": "sad",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        260,
+        21,
+        757,
+        1506
+      ],
+      "opaque_fraction": 0.24527,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1570439,
+      "sha256": "8a58f2bb4e16f86abe46f5d8b6f9fdd7bf28fdf103cda587993e75a2b91d72d1",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_neutral",
+      "category": "character",
+      "label": "澪 · 日常",
+      "path": "assets/characters/mio/neutral.png",
+      "character": "mio",
+      "expression": "neutral",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        245,
+        20,
+        731,
+        1526
+      ],
+      "opaque_fraction": 0.2728,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1740039,
+      "sha256": "bce615fce654228226da64e50f9e7dbfc1f69ba0cc335e44a81f357b33624826",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_smile",
+      "category": "character",
+      "label": "澪 · 喜悦",
+      "path": "assets/characters/mio/smile.png",
+      "character": "mio",
+      "expression": "smile",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        242,
+        19,
+        734,
+        1526
+      ],
+      "opaque_fraction": 0.27888,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1707135,
+      "sha256": "bfbeb848b4e884857bd8cb273dec06cad223c07d426761225c4b14820659d6c7",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_shy",
+      "category": "character",
+      "label": "澪 · 害羞",
+      "path": "assets/characters/mio/shy.png",
+      "character": "mio",
+      "expression": "shy",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        242,
+        19,
+        733,
+        1525
+      ],
+      "opaque_fraction": 0.27893,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1700722,
+      "sha256": "1ac2b599f4635af5bb271dfd6ab69dde2e58dbb2bbd56479c832de195ad69605",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_surprised",
+      "category": "character",
+      "label": "澪 · 惊讶",
+      "path": "assets/characters/mio/surprised.png",
+      "character": "mio",
+      "expression": "surprised",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        242,
+        19,
+        733,
+        1526
+      ],
+      "opaque_fraction": 0.27793,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1702738,
+      "sha256": "804b98f27408343fdbc437174e1575aaa2ad1e0da07666f0f07fe0b9d952d959",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_serious",
+      "category": "character",
+      "label": "澪 · 认真",
+      "path": "assets/characters/mio/serious.png",
+      "character": "mio",
+      "expression": "serious",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        242,
+        17,
+        732,
+        1526
+      ],
+      "opaque_fraction": 0.27781,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1681114,
+      "sha256": "0ef6141de47af6ff8cade86d4844eb1b91eae0b691b55979f8cc5c72615c69f6",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_sad",
+      "category": "character",
+      "label": "澪 · 落泪",
+      "path": "assets/characters/mio/sad.png",
+      "character": "mio",
+      "expression": "sad",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        254
+      ],
+      "opaque_bounds": [
+        244,
+        18,
+        732,
+        1526
+      ],
+      "opaque_fraction": 0.27762,
+      "suggested_anchor": [
+        0.5,
+        1.0
+      ],
+      "bytes": 1680976,
+      "sha256": "aeac4abf453798f8da54a733b04beb0373f9dac2d80f9a7ff97f35f7b1246363",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "seawall_day",
+      "category": "background",
+      "label": "海堤 / 晴日",
+      "path": "assets/backgrounds/seawall_day.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 3442900,
+      "sha256": "2d599074df4e62fc4ea0e99c770511a2295e949fd27c8a18d6fa60cdec45b6f0",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "seawall_sunset",
+      "category": "background",
+      "label": "海堤 / 夕照",
+      "path": "assets/backgrounds/seawall_sunset.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 3249230,
+      "sha256": "fac45aaee2038aed95129214ebdb72a270d7046d2d3b9200400d04fa55d06fdf",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "cafe_day",
+      "category": "background",
+      "label": "咖啡馆 / 晴日",
+      "path": "assets/backgrounds/cafe_day.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 3140260,
+      "sha256": "fe81fa3657aaa8fc368f7a6a2db307cb259f735a1666e2f0faded0fb82b53751",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "cafe_rain",
+      "category": "background",
+      "label": "咖啡馆 / 雨天",
+      "path": "assets/backgrounds/cafe_rain.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2801411,
+      "sha256": "554570e8568a8eb8afbcc79b4ee9698a58ffb0a99cf51365bbb807d1c859901d",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "station_dusk",
+      "category": "background",
+      "label": "旧车站 / 黄昏",
+      "path": "assets/backgrounds/station_dusk.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 3070177,
+      "sha256": "98cfdd87ee53e08187fc28913f3bc06bf9bcae1600527c69729c31adf1689427",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "bedroom_night",
+      "category": "background",
+      "label": "旧居卧室 / 夜晚",
+      "path": "assets/backgrounds/bedroom_night.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2919030,
+      "sha256": "0954d7b1861e960d6ccb3ac3a9cae0542d8b8b8d699239cf6036cd37c689716a",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "observatory_exterior",
+      "category": "background",
+      "label": "天文台外 / 蓝调时刻",
+      "path": "assets/backgrounds/observatory_exterior.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 3253505,
+      "sha256": "feab85cafc6c330ba4198bc61aa933f763606035faa3277519f4b672a3ef357d",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "observatory_interior",
+      "category": "background",
+      "label": "天文台内 / 星夜",
+      "path": "assets/backgrounds/observatory_interior.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2822483,
+      "sha256": "3f7737d9df17475a32bef26663340184c78f2c1d5c3e78b5106d6be40549b08e",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "natsumi_letter",
+      "category": "cg",
+      "label": "夏澄 · 海玻璃来信",
+      "path": "assets/cg/natsumi_letter.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2998867,
+      "sha256": "cd996f16bdf413bc1c475a82eaba7a06c39396eb4be20a1d78bc933bc3be6fee",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "mio_stargazing",
+      "category": "cg",
+      "label": "澪 · 观星之约",
+      "path": "assets/cg/mio_stargazing.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2837352,
+      "sha256": "38a2cf0a6e961d0214135efb186146a01b9b26e6830991e53fef795997383dc8",
+      "source": "OpenAI built-in image_gen"
+    },
+    {
+      "id": "tide_letters_keyvisual",
+      "category": "keyart",
+      "label": "潮汐来信 · 双人主视觉",
+      "path": "assets/keyart/tide_letters_keyvisual.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "has_alpha": false,
+      "suggested_fit": "cover",
+      "suggested_position": [
+        0.5,
+        0.5
+      ],
+      "source_aspect_ratio": "3:2",
+      "preview_aspect_ratio": "16:9",
+      "bytes": 2963533,
+      "sha256": "8bbf3bc2d9aed39121e329bf14414a47184a8781e5f5c97b59c3d5d993ddcb17",
+      "source": "OpenAI built-in image_gen"
+    }
+  ]
+}
